@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advertisement Editor</title>
+</head>
+<body>
+    <input type="file" id="uploadInput">
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <button onclick="uploadImage()">Upload and Save</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/3.6.2/fabric.min.js"></script>
+    <script>
+        const canvas = new fabric.Canvas('canvas', {
+            width: 800,
+            height: 600,
+            backgroundColor: '#ffffff' // Set canvas background color
+        });
+
+        document.getElementById('uploadInput').addEventListener('change', handleFileSelect);
+
+        function handleFileSelect(event) {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function (e) {
+                const img = new Image();
+                img.src = e.target.result;
+
+                img.onload = function () {
+                    const fabricImage = new fabric.Image(img);
+                    canvas.add(fabricImage);
+
+                    // Center the image on the canvas
+                    fabricImage.center();
+                };
+            };
+
+            reader.readAsDataURL(file);
+        }
+
+        function uploadImage() {
+            const dataUrl = canvas.toDataURL();
+            const blob = dataURItoBlob(dataUrl);
+            const formData = new FormData();
+            formData.append('image', blob);
+
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+
+        function dataURItoBlob(dataURI) {
+            const byteString = atob(dataURI.split(',')[1]);
+            const mimeString = dataURI.split(',')[0].split(':')[1].split(';')[0];
+            const arrayBuffer = new ArrayBuffer(byteString.length);
+            const uint8Array = new Uint8Array(arrayBuffer);
+
+            for (let i = 0; i < byteString.length; i++) {
+                uint8Array[i] = byteString.charCodeAt(i);
+            }
+
+            return new Blob([arrayBuffer], { type: mimeString });
+        }
+    </script>
+</body>
+</html>
