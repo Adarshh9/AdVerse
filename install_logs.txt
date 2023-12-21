@@ -1,0 +1,455 @@
+Collecting autotrain-advanced
+  Obtaining dependency information for autotrain-advanced from https://files.pythonhosted.org/packages/b5/f7/71da052a930f79065af9a92bac58501058967f8344e27cbc853ebe0d12c1/autotrain_advanced-0.6.75-py3-none-any.whl.metadata
+  Downloading autotrain_advanced-0.6.75-py3-none-any.whl.metadata (10 kB)
+Requirement already satisfied: albumentations==1.3.1 in /opt/conda/lib/python3.10/site-packages (from autotrain-advanced) (1.3.1)
+Collecting codecarbon==2.2.3 (from autotrain-advanced)
+  Obtaining dependency information for codecarbon==2.2.3 from https://files.pythonhosted.org/packages/91/21/aefc136fa14595668f62c3008789555a4de900f3e23cbf7214743e6c728a/codecarbon-2.2.3-py3-none-any.whl.metadata
+  Downloading codecarbon-2.2.3-py3-none-any.whl.metadata (6.5 kB)
+Collecting datasets[vision]~=2.14.0 (from autotrain-advanced)
+  Obtaining dependency information for datasets[vision]~=2.14.0 from https://files.pythonhosted.org/packages/00/23/80a2147a547cb2fd59eb92a13787c849b3efaefcea02a5c963dfc93f7c56/datasets-2.14.7-py3-none-any.whl.metadata
+  Downloading datasets-2.14.7-py3-none-any.whl.metadata (19 kB)
+Collecting evaluate==0.3.0 (from autotrain-advanced)
+  Downloading evaluate-0.3.0-py3-none-any.whl (72 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/72.9 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━[0m [32m41.0/72.9 kB[0m [31m1.1 MB/s[0m eta [36m0:00:01[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m72.9/72.9 kB[0m [31m1.4 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting ipadic==1.0.0 (from autotrain-advanced)
+  Downloading ipadic-1.0.0.tar.gz (13.4 MB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/13.4 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.1/13.4 MB[0m [31m4.2 MB/s[0m eta [36m0:00:04[0m[2K     [91m━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.4/13.4 MB[0m [31m6.3 MB/s[0m eta [36m0:00:03[0m[2K     [91m━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.1/13.4 MB[0m [31m10.7 MB/s[0m eta [36m0:00:02[0m[2K     [91m━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.6/13.4 MB[0m [31m18.7 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.6/13.4 MB[0m [31m31.6 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━[0m [32m9.9/13.4 MB[0m [31m46.5 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m13.4/13.4 MB[0m [31m108.9 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m13.4/13.4 MB[0m [31m108.9 MB/s[0m eta [36m0:00:01[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m13.4/13.4 MB[0m [31m61.8 MB/s[0m eta [36m0:00:00[0m
+[?25h  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting jiwer==3.0.2 (from autotrain-advanced)
+  Obtaining dependency information for jiwer==3.0.2 from https://files.pythonhosted.org/packages/23/a3/92c29a5e422acd87e3b4f2e6dc0ce877070cc9b2f81d30fe84122032338a/jiwer-3.0.2-py3-none-any.whl.metadata
+  Downloading jiwer-3.0.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting joblib==1.3.1 (from autotrain-advanced)
+  Obtaining dependency information for joblib==1.3.1 from https://files.pythonhosted.org/packages/28/08/9dcdaa5aac4634e4c23af26d92121f7ce445c630efa0d3037881ae2407fb/joblib-1.3.1-py3-none-any.whl.metadata
+  Downloading joblib-1.3.1-py3-none-any.whl.metadata (5.4 kB)
+Collecting loguru==0.7.0 (from autotrain-advanced)
+  Downloading loguru-0.7.0-py3-none-any.whl (59 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/60.0 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m60.0/60.0 kB[0m [31m6.5 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: pandas>=1.4 in /opt/conda/lib/python3.10/site-packages (from autotrain-advanced) (2.0.3)
+Collecting nltk==3.8.1 (from autotrain-advanced)
+  Downloading nltk-3.8.1-py3-none-any.whl (1.5 MB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.5 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.5/1.5 MB[0m [31m64.5 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting optuna==3.3.0 (from autotrain-advanced)
+  Obtaining dependency information for optuna==3.3.0 from https://files.pythonhosted.org/packages/69/60/87a06ef66b34cbe2f2eb0ab66f003664404a7f40c21403a69fad7e28a82b/optuna-3.3.0-py3-none-any.whl.metadata
+  Downloading optuna-3.3.0-py3-none-any.whl.metadata (17 kB)
+Collecting Pillow==10.0.0 (from autotrain-advanced)
+  Obtaining dependency information for Pillow==10.0.0 from https://files.pythonhosted.org/packages/3d/36/e78f09d510354977e10102dd811e928666021d9c451e05df962d56477772/Pillow-10.0.0-cp310-cp310-manylinux_2_28_x86_64.whl.metadata
+  Downloading Pillow-10.0.0-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (9.5 kB)
+Collecting protobuf==4.23.4 (from autotrain-advanced)
+  Obtaining dependency information for protobuf==4.23.4 from https://files.pythonhosted.org/packages/01/cb/445b3e465abdb8042a41957dc8f60c54620dc7540dbcf9b458a921531ca2/protobuf-4.23.4-cp37-abi3-manylinux2014_x86_64.whl.metadata
+  Downloading protobuf-4.23.4-cp37-abi3-manylinux2014_x86_64.whl.metadata (540 bytes)
+Collecting sacremoses==0.0.53 (from autotrain-advanced)
+  Downloading sacremoses-0.0.53.tar.gz (880 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/880.6 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m880.6/880.6 kB[0m [31m60.6 MB/s[0m eta [36m0:00:00[0m
+[?25h  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting scikit-learn==1.3.0 (from autotrain-advanced)
+  Obtaining dependency information for scikit-learn==1.3.0 from https://files.pythonhosted.org/packages/5c/e9/ee572691a3fb05555bcde41826faad29ae4bc1fb07982e7f53d54a176879/scikit_learn-1.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading scikit_learn-1.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+Requirement already satisfied: sentencepiece==0.1.99 in /opt/conda/lib/python3.10/site-packages (from autotrain-advanced) (0.1.99)
+Collecting tqdm==4.65.0 (from autotrain-advanced)
+  Downloading tqdm-4.65.0-py3-none-any.whl (77 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/77.1 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m77.1/77.1 kB[0m [31m9.2 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting werkzeug==2.3.6 (from autotrain-advanced)
+  Obtaining dependency information for werkzeug==2.3.6 from https://files.pythonhosted.org/packages/ba/d6/8040faecaba2feb84e1647af174b3243c9b90c163c7ea407820839931efe/Werkzeug-2.3.6-py3-none-any.whl.metadata
+  Downloading Werkzeug-2.3.6-py3-none-any.whl.metadata (4.1 kB)
+Collecting xgboost==1.7.6 (from autotrain-advanced)
+  Obtaining dependency information for xgboost==1.7.6 from https://files.pythonhosted.org/packages/8c/3a/c9c5d4d5c49b132ef15ac7b5ccf56ef1c82efe36cd19414771762e97c00e/xgboost-1.7.6-py3-none-manylinux2014_x86_64.whl.metadata
+  Downloading xgboost-1.7.6-py3-none-manylinux2014_x86_64.whl.metadata (1.9 kB)
+Requirement already satisfied: huggingface-hub>=0.16.4 in /opt/conda/lib/python3.10/site-packages (from autotrain-advanced) (0.19.4)
+Requirement already satisfied: requests==2.31.0 in /opt/conda/lib/python3.10/site-packages (from autotrain-advanced) (2.31.0)
+Collecting einops==0.6.1 (from autotrain-advanced)
+  Downloading einops-0.6.1-py3-none-any.whl (42 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/42.2 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m42.2/42.2 kB[0m [31m4.5 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting invisible-watermark==0.2.0 (from autotrain-advanced)
+  Obtaining dependency information for invisible-watermark==0.2.0 from https://files.pythonhosted.org/packages/2b/57/18b5a914f6d7994dd349252873169e946dc824328e9a37fd15ed836deedc/invisible_watermark-0.2.0-py3-none-any.whl.metadata
+  Downloading invisible_watermark-0.2.0-py3-none-any.whl.metadata (8.2 kB)
+Collecting packaging==23.1 (from autotrain-advanced)
+  Downloading packaging-23.1-py3-none-any.whl (48 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/48.9 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m48.9/48.9 kB[0m [31m6.3 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: tensorboard in /opt/conda/lib/python3.10/site-packages (from autotrain-advanced) (2.13.0)
+Collecting peft==0.7.1 (from autotrain-advanced)
+  Obtaining dependency information for peft==0.7.1 from https://files.pythonhosted.org/packages/8b/1b/aee2a330d050c493642d59ba6af51f3910cb138ea48ede228c84c204a5af/peft-0.7.1-py3-none-any.whl.metadata
+  Downloading peft-0.7.1-py3-none-any.whl.metadata (25 kB)
+Collecting trl==0.7.4 (from autotrain-advanced)
+  Obtaining dependency information for trl==0.7.4 from https://files.pythonhosted.org/packages/0d/44/c406c3cf5981bddb16ff72acb5ca235888db4073d868cf51bd143bef3aad/trl-0.7.4-py3-none-any.whl.metadata
+  Downloading trl-0.7.4-py3-none-any.whl.metadata (10 kB)
+Collecting tiktoken==0.5.1 (from autotrain-advanced)
+  Obtaining dependency information for tiktoken==0.5.1 from https://files.pythonhosted.org/packages/f4/2e/0adf6e264b996e263b1c57cad6560ffd5492a69beb9fd779ed0463d486bc/tiktoken-0.5.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading tiktoken-0.5.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+Collecting transformers==4.36.1 (from autotrain-advanced)
+  Obtaining dependency information for transformers==4.36.1 from https://files.pythonhosted.org/packages/fc/04/0aad491cd98b09236c54ab849863ee85421eeda5138bbf9d33ecc594652b/transformers-4.36.1-py3-none-any.whl.metadata
+  Downloading transformers-4.36.1-py3-none-any.whl.metadata (126 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/126.8 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m126.8/126.8 kB[0m [31m15.0 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: accelerate==0.25.0 in /opt/conda/lib/python3.10/site-packages (from autotrain-advanced) (0.25.0)
+Collecting diffusers==0.21.4 (from autotrain-advanced)
+  Obtaining dependency information for diffusers==0.21.4 from https://files.pythonhosted.org/packages/2e/ed/58a13f88dfcdd1bcfeabf44d4c9861979551339348e579fd6559c64b12e0/diffusers-0.21.4-py3-none-any.whl.metadata
+  Downloading diffusers-0.21.4-py3-none-any.whl.metadata (18 kB)
+Collecting bitsandbytes==0.41.0 (from autotrain-advanced)
+  Obtaining dependency information for bitsandbytes==0.41.0 from https://files.pythonhosted.org/packages/b9/33/1cea2d1c909dd3e2b595f7b73c4417f3786c385a4b269a5c40c7699bb14b/bitsandbytes-0.41.0-py3-none-any.whl.metadata
+  Downloading bitsandbytes-0.41.0-py3-none-any.whl.metadata (9.8 kB)
+Collecting rouge-score==0.1.2 (from autotrain-advanced)
+  Downloading rouge_score-0.1.2.tar.gz (17 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting py7zr==0.20.6 (from autotrain-advanced)
+  Obtaining dependency information for py7zr==0.20.6 from https://files.pythonhosted.org/packages/2c/da/155bb1f692c067b9213c9c7b8c19a012a65027399606d623a25dfb1d3af1/py7zr-0.20.6-py3-none-any.whl.metadata
+  Downloading py7zr-0.20.6-py3-none-any.whl.metadata (16 kB)
+Collecting fastapi==0.104.1 (from autotrain-advanced)
+  Obtaining dependency information for fastapi==0.104.1 from https://files.pythonhosted.org/packages/f3/4f/0ce34195b63240b6693086496c9bab4ef23999112184399a3e88854c7674/fastapi-0.104.1-py3-none-any.whl.metadata
+  Downloading fastapi-0.104.1-py3-none-any.whl.metadata (24 kB)
+Collecting uvicorn==0.22.0 (from autotrain-advanced)
+  Downloading uvicorn-0.22.0-py3-none-any.whl (58 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/58.3 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m58.3/58.3 kB[0m [31m5.7 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting python-multipart==0.0.6 (from autotrain-advanced)
+  Downloading python_multipart-0.0.6-py3-none-any.whl (45 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/45.7 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m45.7/45.7 kB[0m [31m5.1 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting gradio==3.41.0 (from autotrain-advanced)
+  Obtaining dependency information for gradio==3.41.0 from https://files.pythonhosted.org/packages/70/38/4fb11e6ddf8ecc77717389b553ea8dedca1a0574eee4fcbaf943e7dc34df/gradio-3.41.0-py3-none-any.whl.metadata
+  Downloading gradio-3.41.0-py3-none-any.whl.metadata (17 kB)
+Collecting pydantic==2.4.2 (from autotrain-advanced)
+  Obtaining dependency information for pydantic==2.4.2 from https://files.pythonhosted.org/packages/73/66/0a72c9fcde42e5650c8d8d5c5c1873b9a3893018020c77ca8eb62708b923/pydantic-2.4.2-py3-none-any.whl.metadata
+  Downloading pydantic-2.4.2-py3-none-any.whl.metadata (158 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/158.6 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m158.6/158.6 kB[0m [31m17.8 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting hf-transfer (from autotrain-advanced)
+  Obtaining dependency information for hf-transfer from https://files.pythonhosted.org/packages/17/41/5fa31aef6167881ff50b3a4bafb9f4320f6a426a5f6d6c2b9f07c475aac0/hf_transfer-0.1.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading hf_transfer-0.1.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting pyngrok==7.0.3 (from autotrain-advanced)
+  Obtaining dependency information for pyngrok==7.0.3 from https://files.pythonhosted.org/packages/d6/6c/09c3548b51c006274f3e25b91463f07b3fe0615177dd9bbe5aa71e542c68/pyngrok-7.0.3-py3-none-any.whl.metadata
+  Downloading pyngrok-7.0.3-py3-none-any.whl.metadata (6.2 kB)
+Requirement already satisfied: numpy>=1.17 in /opt/conda/lib/python3.10/site-packages (from accelerate==0.25.0->autotrain-advanced) (1.24.3)
+Requirement already satisfied: psutil in /opt/conda/lib/python3.10/site-packages (from accelerate==0.25.0->autotrain-advanced) (5.9.3)
+Requirement already satisfied: pyyaml in /opt/conda/lib/python3.10/site-packages (from accelerate==0.25.0->autotrain-advanced) (6.0.1)
+Requirement already satisfied: torch>=1.10.0 in /opt/conda/lib/python3.10/site-packages (from accelerate==0.25.0->autotrain-advanced) (2.0.0)
+Requirement already satisfied: safetensors>=0.3.1 in /opt/conda/lib/python3.10/site-packages (from accelerate==0.25.0->autotrain-advanced) (0.4.1)
+Requirement already satisfied: scipy>=1.1.0 in /opt/conda/lib/python3.10/site-packages (from albumentations==1.3.1->autotrain-advanced) (1.11.4)
+Requirement already satisfied: scikit-image>=0.16.1 in /opt/conda/lib/python3.10/site-packages (from albumentations==1.3.1->autotrain-advanced) (0.21.0)
+Requirement already satisfied: qudida>=0.0.4 in /opt/conda/lib/python3.10/site-packages (from albumentations==1.3.1->autotrain-advanced) (0.0.4)
+Requirement already satisfied: opencv-python-headless>=4.1.1 in /opt/conda/lib/python3.10/site-packages (from albumentations==1.3.1->autotrain-advanced) (4.8.1.78)
+Requirement already satisfied: arrow in /opt/conda/lib/python3.10/site-packages (from codecarbon==2.2.3->autotrain-advanced) (1.2.3)
+Requirement already satisfied: pynvml in /opt/conda/lib/python3.10/site-packages (from codecarbon==2.2.3->autotrain-advanced) (11.4.1)
+Requirement already satisfied: py-cpuinfo in /opt/conda/lib/python3.10/site-packages (from codecarbon==2.2.3->autotrain-advanced) (9.0.0)
+Requirement already satisfied: fuzzywuzzy in /opt/conda/lib/python3.10/site-packages (from codecarbon==2.2.3->autotrain-advanced) (0.18.0)
+Requirement already satisfied: click in /opt/conda/lib/python3.10/site-packages (from codecarbon==2.2.3->autotrain-advanced) (8.1.7)
+Requirement already satisfied: filelock in /opt/conda/lib/python3.10/site-packages (from diffusers==0.21.4->autotrain-advanced) (3.12.2)
+Requirement already satisfied: importlib-metadata in /opt/conda/lib/python3.10/site-packages (from diffusers==0.21.4->autotrain-advanced) (6.8.0)
+Requirement already satisfied: regex!=2019.12.17 in /opt/conda/lib/python3.10/site-packages (from diffusers==0.21.4->autotrain-advanced) (2023.8.8)
+Requirement already satisfied: datasets>=2.0.0 in /opt/conda/lib/python3.10/site-packages (from evaluate==0.3.0->autotrain-advanced) (2.1.0)
+Requirement already satisfied: dill in /opt/conda/lib/python3.10/site-packages (from evaluate==0.3.0->autotrain-advanced) (0.3.7)
+Requirement already satisfied: xxhash in /opt/conda/lib/python3.10/site-packages (from evaluate==0.3.0->autotrain-advanced) (3.4.1)
+Requirement already satisfied: multiprocess in /opt/conda/lib/python3.10/site-packages (from evaluate==0.3.0->autotrain-advanced) (0.70.15)
+Requirement already satisfied: fsspec[http]>=2021.05.0 in /opt/conda/lib/python3.10/site-packages (from evaluate==0.3.0->autotrain-advanced) (2023.12.2)
+Requirement already satisfied: responses<0.19 in /opt/conda/lib/python3.10/site-packages (from evaluate==0.3.0->autotrain-advanced) (0.18.0)
+Requirement already satisfied: anyio<4.0.0,>=3.7.1 in /opt/conda/lib/python3.10/site-packages (from fastapi==0.104.1->autotrain-advanced) (3.7.1)
+Requirement already satisfied: starlette<0.28.0,>=0.27.0 in /opt/conda/lib/python3.10/site-packages (from fastapi==0.104.1->autotrain-advanced) (0.27.0)
+Collecting typing-extensions>=4.8.0 (from fastapi==0.104.1->autotrain-advanced)
+  Obtaining dependency information for typing-extensions>=4.8.0 from https://files.pythonhosted.org/packages/b7/f4/6a90020cd2d93349b442bfcb657d0dc91eee65491600b2cb1d388bc98e6b/typing_extensions-4.9.0-py3-none-any.whl.metadata
+  Downloading typing_extensions-4.9.0-py3-none-any.whl.metadata (3.0 kB)
+Collecting aiofiles<24.0,>=22.0 (from gradio==3.41.0->autotrain-advanced)
+  Obtaining dependency information for aiofiles<24.0,>=22.0 from https://files.pythonhosted.org/packages/c5/19/5af6804c4cc0fed83f47bff6e413a98a36618e7d40185cd36e69737f3b0e/aiofiles-23.2.1-py3-none-any.whl.metadata
+  Downloading aiofiles-23.2.1-py3-none-any.whl.metadata (9.7 kB)
+Requirement already satisfied: altair<6.0,>=4.2.0 in /opt/conda/lib/python3.10/site-packages (from gradio==3.41.0->autotrain-advanced) (5.2.0)
+Collecting ffmpy (from gradio==3.41.0->autotrain-advanced)
+  Downloading ffmpy-0.3.1.tar.gz (5.5 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting gradio-client==0.5.0 (from gradio==3.41.0->autotrain-advanced)
+  Obtaining dependency information for gradio-client==0.5.0 from https://files.pythonhosted.org/packages/fe/85/ec0323f39192c4bee04e8e06e64213aff816b9d1b61c3c8367e75b1c7e10/gradio_client-0.5.0-py3-none-any.whl.metadata
+  Downloading gradio_client-0.5.0-py3-none-any.whl.metadata (7.1 kB)
+Collecting httpx (from gradio==3.41.0->autotrain-advanced)
+  Obtaining dependency information for httpx from https://files.pythonhosted.org/packages/39/9b/4937d841aee9c2c8102d9a4eeb800c7dad25386caabb4a1bf5010df81a57/httpx-0.26.0-py3-none-any.whl.metadata
+  Downloading httpx-0.26.0-py3-none-any.whl.metadata (7.6 kB)
+Requirement already satisfied: importlib-resources<7.0,>=1.3 in /opt/conda/lib/python3.10/site-packages (from gradio==3.41.0->autotrain-advanced) (5.13.0)
+Requirement already satisfied: jinja2<4.0 in /opt/conda/lib/python3.10/site-packages (from gradio==3.41.0->autotrain-advanced) (3.1.2)
+Requirement already satisfied: markupsafe~=2.0 in /opt/conda/lib/python3.10/site-packages (from gradio==3.41.0->autotrain-advanced) (2.1.3)
+Requirement already satisfied: matplotlib~=3.0 in /opt/conda/lib/python3.10/site-packages (from gradio==3.41.0->autotrain-advanced) (3.7.4)
+Requirement already satisfied: orjson~=3.0 in /opt/conda/lib/python3.10/site-packages (from gradio==3.41.0->autotrain-advanced) (3.9.5)
+Requirement already satisfied: pydub in /opt/conda/lib/python3.10/site-packages (from gradio==3.41.0->autotrain-advanced) (0.25.1)
+Collecting semantic-version~=2.0 (from gradio==3.41.0->autotrain-advanced)
+  Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+Collecting websockets<12.0,>=10.0 (from gradio==3.41.0->autotrain-advanced)
+  Downloading websockets-11.0.3-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (129 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/129.9 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m129.9/129.9 kB[0m [31m13.3 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: PyWavelets>=1.1.1 in /opt/conda/lib/python3.10/site-packages (from invisible-watermark==0.2.0->autotrain-advanced) (1.4.1)
+Requirement already satisfied: opencv-python>=4.1.0.25 in /opt/conda/lib/python3.10/site-packages (from invisible-watermark==0.2.0->autotrain-advanced) (4.8.1.78)
+Collecting rapidfuzz==2.13.7 (from jiwer==3.0.2->autotrain-advanced)
+  Downloading rapidfuzz-2.13.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.2 MB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.2 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.2/2.2 MB[0m [31m76.1 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: alembic>=1.5.0 in /opt/conda/lib/python3.10/site-packages (from optuna==3.3.0->autotrain-advanced) (1.13.0)
+Collecting cmaes>=0.10.0 (from optuna==3.3.0->autotrain-advanced)
+  Obtaining dependency information for cmaes>=0.10.0 from https://files.pythonhosted.org/packages/f7/46/7d9544d453346f6c0c405916c95fdb653491ea2e9976cabb810ba2fe8cd4/cmaes-0.10.0-py3-none-any.whl.metadata
+  Downloading cmaes-0.10.0-py3-none-any.whl.metadata (19 kB)
+Requirement already satisfied: colorlog in /opt/conda/lib/python3.10/site-packages (from optuna==3.3.0->autotrain-advanced) (6.8.0)
+Requirement already satisfied: sqlalchemy>=1.3.0 in /opt/conda/lib/python3.10/site-packages (from optuna==3.3.0->autotrain-advanced) (2.0.20)
+Requirement already satisfied: texttable in /opt/conda/lib/python3.10/site-packages (from py7zr==0.20.6->autotrain-advanced) (1.7.0)
+Collecting pycryptodomex>=3.6.6 (from py7zr==0.20.6->autotrain-advanced)
+  Obtaining dependency information for pycryptodomex>=3.6.6 from https://files.pythonhosted.org/packages/23/23/3f3d042c96ff7bece5b126365593b1f9c8e3ae62ce80d44e9da39c5e8a73/pycryptodomex-3.19.0-cp35-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading pycryptodomex-3.19.0-cp35-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.4 kB)
+Collecting pyzstd>=0.14.4 (from py7zr==0.20.6->autotrain-advanced)
+  Obtaining dependency information for pyzstd>=0.14.4 from https://files.pythonhosted.org/packages/02/97/57de14ccb0d033464aabc5110eb2f9dc717c97e17f2ffc1235680a27e5de/pyzstd-0.15.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading pyzstd-0.15.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.5 kB)
+Collecting pyppmd<1.1.0,>=0.18.1 (from py7zr==0.20.6->autotrain-advanced)
+  Downloading pyppmd-1.0.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (138 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/138.8 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m138.8/138.8 kB[0m [31m13.7 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting pybcj>=0.6.0 (from py7zr==0.20.6->autotrain-advanced)
+  Obtaining dependency information for pybcj>=0.6.0 from https://files.pythonhosted.org/packages/09/70/8b6a6cc2a5721f67f629bdc17875c0d603d57f360a19b099a7b4de19383d/pybcj-1.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading pybcj-1.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
+Collecting multivolumefile>=0.2.3 (from py7zr==0.20.6->autotrain-advanced)
+  Downloading multivolumefile-0.2.3-py3-none-any.whl (17 kB)
+Collecting brotli>=1.0.9 (from py7zr==0.20.6->autotrain-advanced)
+  Obtaining dependency information for brotli>=1.0.9 from https://files.pythonhosted.org/packages/d5/00/40f760cc27007912b327fe15bf6bfd8eaecbe451687f72a8abc587d503b3/Brotli-1.1.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata
+  Downloading Brotli-1.1.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (5.5 kB)
+Collecting inflate64>=0.3.1 (from py7zr==0.20.6->autotrain-advanced)
+  Obtaining dependency information for inflate64>=0.3.1 from https://files.pythonhosted.org/packages/b8/f4/e387a50f5027194eac4f9712d57b97e3e1a012402eaae98bcf1ebe8a97d1/inflate64-1.0.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading inflate64-1.0.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
+Requirement already satisfied: annotated-types>=0.4.0 in /opt/conda/lib/python3.10/site-packages (from pydantic==2.4.2->autotrain-advanced) (0.6.0)
+Collecting pydantic-core==2.10.1 (from pydantic==2.4.2->autotrain-advanced)
+  Obtaining dependency information for pydantic-core==2.10.1 from https://files.pythonhosted.org/packages/86/67/d36e2237d84ac96f400e29586da1e21eabf9aa227fc9c3e4410fbc6408de/pydantic_core-2.10.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading pydantic_core-2.10.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.5 kB)
+Requirement already satisfied: charset-normalizer<4,>=2 in /opt/conda/lib/python3.10/site-packages (from requests==2.31.0->autotrain-advanced) (3.2.0)
+Requirement already satisfied: idna<4,>=2.5 in /opt/conda/lib/python3.10/site-packages (from requests==2.31.0->autotrain-advanced) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/conda/lib/python3.10/site-packages (from requests==2.31.0->autotrain-advanced) (1.26.15)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/lib/python3.10/site-packages (from requests==2.31.0->autotrain-advanced) (2023.11.17)
+Requirement already satisfied: absl-py in /opt/conda/lib/python3.10/site-packages (from rouge-score==0.1.2->autotrain-advanced) (1.4.0)
+Requirement already satisfied: six>=1.14.0 in /opt/conda/lib/python3.10/site-packages (from rouge-score==0.1.2->autotrain-advanced) (1.16.0)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /opt/conda/lib/python3.10/site-packages (from scikit-learn==1.3.0->autotrain-advanced) (3.2.0)
+Requirement already satisfied: tokenizers<0.19,>=0.14 in /opt/conda/lib/python3.10/site-packages (from transformers==4.36.1->autotrain-advanced) (0.15.0)
+Collecting tyro>=0.5.11 (from trl==0.7.4->autotrain-advanced)
+  Obtaining dependency information for tyro>=0.5.11 from https://files.pythonhosted.org/packages/c5/11/abdf67467d06713b431618732a43f82d1b1f02120107b05a789afbcdf54d/tyro-0.6.0-py3-none-any.whl.metadata
+  Downloading tyro-0.6.0-py3-none-any.whl.metadata (7.5 kB)
+Requirement already satisfied: h11>=0.8 in /opt/conda/lib/python3.10/site-packages (from uvicorn==0.22.0->autotrain-advanced) (0.14.0)
+Requirement already satisfied: pyarrow>=8.0.0 in /opt/conda/lib/python3.10/site-packages (from datasets[vision]~=2.14.0->autotrain-advanced) (11.0.0)
+Collecting pyarrow-hotfix (from datasets[vision]~=2.14.0->autotrain-advanced)
+  Obtaining dependency information for pyarrow-hotfix from https://files.pythonhosted.org/packages/e4/f4/9ec2222f5f5f8ea04f66f184caafd991a39c8782e31f5b0266f101cb68ca/pyarrow_hotfix-0.6-py3-none-any.whl.metadata
+  Downloading pyarrow_hotfix-0.6-py3-none-any.whl.metadata (3.6 kB)
+Collecting fsspec[http]>=2021.05.0 (from evaluate==0.3.0->autotrain-advanced)
+  Obtaining dependency information for fsspec[http]>=2021.05.0 from https://files.pythonhosted.org/packages/e8/f6/3eccfb530aac90ad1301c582da228e4763f19e719ac8200752a4841b0b2d/fsspec-2023.10.0-py3-none-any.whl.metadata
+  Downloading fsspec-2023.10.0-py3-none-any.whl.metadata (6.8 kB)
+Requirement already satisfied: aiohttp in /opt/conda/lib/python3.10/site-packages (from datasets[vision]~=2.14.0->autotrain-advanced) (3.8.5)
+Requirement already satisfied: python-dateutil>=2.8.2 in /opt/conda/lib/python3.10/site-packages (from pandas>=1.4->autotrain-advanced) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in /opt/conda/lib/python3.10/site-packages (from pandas>=1.4->autotrain-advanced) (2023.3)
+Requirement already satisfied: tzdata>=2022.1 in /opt/conda/lib/python3.10/site-packages (from pandas>=1.4->autotrain-advanced) (2023.3)
+Requirement already satisfied: grpcio>=1.48.2 in /opt/conda/lib/python3.10/site-packages (from tensorboard->autotrain-advanced) (1.51.1)
+Requirement already satisfied: google-auth<3,>=1.6.3 in /opt/conda/lib/python3.10/site-packages (from tensorboard->autotrain-advanced) (2.22.0)
+Requirement already satisfied: google-auth-oauthlib<1.1,>=0.5 in /opt/conda/lib/python3.10/site-packages (from tensorboard->autotrain-advanced) (1.0.0)
+Requirement already satisfied: markdown>=2.6.8 in /opt/conda/lib/python3.10/site-packages (from tensorboard->autotrain-advanced) (3.4.4)
+Requirement already satisfied: setuptools>=41.0.0 in /opt/conda/lib/python3.10/site-packages (from tensorboard->autotrain-advanced) (68.1.2)
+Requirement already satisfied: tensorboard-data-server<0.8.0,>=0.7.0 in /opt/conda/lib/python3.10/site-packages (from tensorboard->autotrain-advanced) (0.7.1)
+Requirement already satisfied: wheel>=0.26 in /opt/conda/lib/python3.10/site-packages (from tensorboard->autotrain-advanced) (0.41.2)
+Requirement already satisfied: Mako in /opt/conda/lib/python3.10/site-packages (from alembic>=1.5.0->optuna==3.3.0->autotrain-advanced) (1.3.0)
+Requirement already satisfied: jsonschema>=3.0 in /opt/conda/lib/python3.10/site-packages (from altair<6.0,>=4.2.0->gradio==3.41.0->autotrain-advanced) (4.19.0)
+Requirement already satisfied: toolz in /opt/conda/lib/python3.10/site-packages (from altair<6.0,>=4.2.0->gradio==3.41.0->autotrain-advanced) (0.12.0)
+Requirement already satisfied: sniffio>=1.1 in /opt/conda/lib/python3.10/site-packages (from anyio<4.0.0,>=3.7.1->fastapi==0.104.1->autotrain-advanced) (1.3.0)
+Requirement already satisfied: exceptiongroup in /opt/conda/lib/python3.10/site-packages (from anyio<4.0.0,>=3.7.1->fastapi==0.104.1->autotrain-advanced) (1.1.3)
+Requirement already satisfied: attrs>=17.3.0 in /opt/conda/lib/python3.10/site-packages (from aiohttp->datasets[vision]~=2.14.0->autotrain-advanced) (23.1.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in /opt/conda/lib/python3.10/site-packages (from aiohttp->datasets[vision]~=2.14.0->autotrain-advanced) (6.0.4)
+Requirement already satisfied: async-timeout<5.0,>=4.0.0a3 in /opt/conda/lib/python3.10/site-packages (from aiohttp->datasets[vision]~=2.14.0->autotrain-advanced) (4.0.3)
+Requirement already satisfied: yarl<2.0,>=1.0 in /opt/conda/lib/python3.10/site-packages (from aiohttp->datasets[vision]~=2.14.0->autotrain-advanced) (1.9.2)
+Requirement already satisfied: frozenlist>=1.1.1 in /opt/conda/lib/python3.10/site-packages (from aiohttp->datasets[vision]~=2.14.0->autotrain-advanced) (1.4.0)
+Requirement already satisfied: aiosignal>=1.1.2 in /opt/conda/lib/python3.10/site-packages (from aiohttp->datasets[vision]~=2.14.0->autotrain-advanced) (1.3.1)
+Requirement already satisfied: cachetools<6.0,>=2.0.0 in /opt/conda/lib/python3.10/site-packages (from google-auth<3,>=1.6.3->tensorboard->autotrain-advanced) (4.2.4)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in /opt/conda/lib/python3.10/site-packages (from google-auth<3,>=1.6.3->tensorboard->autotrain-advanced) (0.2.7)
+Requirement already satisfied: rsa<5,>=3.1.4 in /opt/conda/lib/python3.10/site-packages (from google-auth<3,>=1.6.3->tensorboard->autotrain-advanced) (4.9)
+Requirement already satisfied: requests-oauthlib>=0.7.0 in /opt/conda/lib/python3.10/site-packages (from google-auth-oauthlib<1.1,>=0.5->tensorboard->autotrain-advanced) (1.3.1)
+Requirement already satisfied: contourpy>=1.0.1 in /opt/conda/lib/python3.10/site-packages (from matplotlib~=3.0->gradio==3.41.0->autotrain-advanced) (1.1.0)
+Requirement already satisfied: cycler>=0.10 in /opt/conda/lib/python3.10/site-packages (from matplotlib~=3.0->gradio==3.41.0->autotrain-advanced) (0.11.0)
+Requirement already satisfied: fonttools>=4.22.0 in /opt/conda/lib/python3.10/site-packages (from matplotlib~=3.0->gradio==3.41.0->autotrain-advanced) (4.42.1)
+Requirement already satisfied: kiwisolver>=1.0.1 in /opt/conda/lib/python3.10/site-packages (from matplotlib~=3.0->gradio==3.41.0->autotrain-advanced) (1.4.4)
+Requirement already satisfied: pyparsing>=2.3.1 in /opt/conda/lib/python3.10/site-packages (from matplotlib~=3.0->gradio==3.41.0->autotrain-advanced) (3.0.9)
+Requirement already satisfied: networkx>=2.8 in /opt/conda/lib/python3.10/site-packages (from scikit-image>=0.16.1->albumentations==1.3.1->autotrain-advanced) (3.1)
+Requirement already satisfied: imageio>=2.27 in /opt/conda/lib/python3.10/site-packages (from scikit-image>=0.16.1->albumentations==1.3.1->autotrain-advanced) (2.31.1)
+Requirement already satisfied: tifffile>=2022.8.12 in /opt/conda/lib/python3.10/site-packages (from scikit-image>=0.16.1->albumentations==1.3.1->autotrain-advanced) (2023.8.12)
+Requirement already satisfied: lazy_loader>=0.2 in /opt/conda/lib/python3.10/site-packages (from scikit-image>=0.16.1->albumentations==1.3.1->autotrain-advanced) (0.3)
+Requirement already satisfied: greenlet!=0.4.17 in /opt/conda/lib/python3.10/site-packages (from sqlalchemy>=1.3.0->optuna==3.3.0->autotrain-advanced) (2.0.2)
+Requirement already satisfied: sympy in /opt/conda/lib/python3.10/site-packages (from torch>=1.10.0->accelerate==0.25.0->autotrain-advanced) (1.12)
+Requirement already satisfied: docstring-parser>=0.14.1 in /opt/conda/lib/python3.10/site-packages (from tyro>=0.5.11->trl==0.7.4->autotrain-advanced) (0.15)
+Requirement already satisfied: rich>=11.1.0 in /opt/conda/lib/python3.10/site-packages (from tyro>=0.5.11->trl==0.7.4->autotrain-advanced) (13.5.2)
+Collecting shtab>=1.5.6 (from tyro>=0.5.11->trl==0.7.4->autotrain-advanced)
+  Obtaining dependency information for shtab>=1.5.6 from https://files.pythonhosted.org/packages/40/ad/7227da64498eaa7abecee4311008f70869e156014b3270cec36e2e70cd31/shtab-1.6.5-py3-none-any.whl.metadata
+  Downloading shtab-1.6.5-py3-none-any.whl.metadata (7.3 kB)
+Collecting httpcore==1.* (from httpx->gradio==3.41.0->autotrain-advanced)
+  Obtaining dependency information for httpcore==1.* from https://files.pythonhosted.org/packages/56/ba/78b0a99c4da0ff8b0f59defa2f13ca4668189b134bd9840b6202a93d9a0f/httpcore-1.0.2-py3-none-any.whl.metadata
+  Downloading httpcore-1.0.2-py3-none-any.whl.metadata (20 kB)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/lib/python3.10/site-packages (from importlib-metadata->diffusers==0.21.4->autotrain-advanced) (3.16.2)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in /opt/conda/lib/python3.10/site-packages (from jsonschema>=3.0->altair<6.0,>=4.2.0->gradio==3.41.0->autotrain-advanced) (2023.7.1)
+Requirement already satisfied: referencing>=0.28.4 in /opt/conda/lib/python3.10/site-packages (from jsonschema>=3.0->altair<6.0,>=4.2.0->gradio==3.41.0->autotrain-advanced) (0.30.2)
+Requirement already satisfied: rpds-py>=0.7.1 in /opt/conda/lib/python3.10/site-packages (from jsonschema>=3.0->altair<6.0,>=4.2.0->gradio==3.41.0->autotrain-advanced) (0.9.2)
+Requirement already satisfied: pyasn1<0.5.0,>=0.4.6 in /opt/conda/lib/python3.10/site-packages (from pyasn1-modules>=0.2.1->google-auth<3,>=1.6.3->tensorboard->autotrain-advanced) (0.4.8)
+Requirement already satisfied: oauthlib>=3.0.0 in /opt/conda/lib/python3.10/site-packages (from requests-oauthlib>=0.7.0->google-auth-oauthlib<1.1,>=0.5->tensorboard->autotrain-advanced) (3.2.2)
+Requirement already satisfied: markdown-it-py>=2.2.0 in /opt/conda/lib/python3.10/site-packages (from rich>=11.1.0->tyro>=0.5.11->trl==0.7.4->autotrain-advanced) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /opt/conda/lib/python3.10/site-packages (from rich>=11.1.0->tyro>=0.5.11->trl==0.7.4->autotrain-advanced) (2.16.1)
+Requirement already satisfied: mpmath>=0.19 in /opt/conda/lib/python3.10/site-packages (from sympy->torch>=1.10.0->accelerate==0.25.0->autotrain-advanced) (1.3.0)
+Requirement already satisfied: mdurl~=0.1 in /opt/conda/lib/python3.10/site-packages (from markdown-it-py>=2.2.0->rich>=11.1.0->tyro>=0.5.11->trl==0.7.4->autotrain-advanced) (0.1.0)
+Downloading autotrain_advanced-0.6.75-py3-none-any.whl (211 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/211.6 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m211.6/211.6 kB[0m [31m22.0 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading bitsandbytes-0.41.0-py3-none-any.whl (92.6 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/92.6 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.2/92.6 MB[0m [31m127.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m7.3/92.6 MB[0m [31m106.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.3/92.6 MB[0m [31m105.8 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m14.7/92.6 MB[0m [31m101.1 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m18.2/92.6 MB[0m [31m101.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m22.0/92.6 MB[0m [31m102.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m25.8/92.6 MB[0m [31m103.0 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m29.4/92.6 MB[0m [31m104.1 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m32.6/92.6 MB[0m [31m106.1 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m36.2/92.6 MB[0m [31m99.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m40.0/92.6 MB[0m [31m105.2 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m44.1/92.6 MB[0m [31m106.8 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m47.8/92.6 MB[0m [31m110.0 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━[0m [32m51.7/92.6 MB[0m [31m109.1 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━[0m [32m55.8/92.6 MB[0m [31m109.8 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━[0m [32m60.0/92.6 MB[0m [31m111.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━[0m [32m64.1/92.6 MB[0m [31m117.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m68.1/92.6 MB[0m [31m115.5 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━[0m [32m72.3/92.6 MB[0m [31m120.3 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m76.4/92.6 MB[0m [31m125.3 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━[0m [32m80.7/92.6 MB[0m [31m121.3 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━[0m [32m84.8/92.6 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━[0m [32m89.0/92.6 MB[0m [31m118.1 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m92.6/92.6 MB[0m [31m123.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m92.6/92.6 MB[0m [31m123.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m92.6/92.6 MB[0m [31m123.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m92.6/92.6 MB[0m [31m123.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m92.6/92.6 MB[0m [31m123.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m92.6/92.6 MB[0m [31m123.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m92.6/92.6 MB[0m [31m123.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m92.6/92.6 MB[0m [31m123.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m92.6/92.6 MB[0m [31m123.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m92.6/92.6 MB[0m [31m123.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m92.6/92.6 MB[0m [31m123.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m92.6/92.6 MB[0m [31m123.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m92.6/92.6 MB[0m [31m123.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m92.6/92.6 MB[0m [31m123.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m92.6/92.6 MB[0m [31m123.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m92.6/92.6 MB[0m [31m123.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m92.6/92.6 MB[0m [31m123.6 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m92.6/92.6 MB[0m [31m123.6 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m92.6/92.6 MB[0m [31m12.9 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading codecarbon-2.2.3-py3-none-any.whl (174 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/174.1 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m174.1/174.1 kB[0m [31m13.7 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading diffusers-0.21.4-py3-none-any.whl (1.5 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.5 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.5/1.5 MB[0m [31m71.6 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading fastapi-0.104.1-py3-none-any.whl (92 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/92.9 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m92.9/92.9 kB[0m [31m10.6 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading gradio-3.41.0-py3-none-any.whl (20.1 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/20.1 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.3/20.1 MB[0m [31m128.3 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m8.6/20.1 MB[0m [31m124.3 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━[0m [32m12.3/20.1 MB[0m [31m111.5 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━[0m [32m15.9/20.1 MB[0m [31m113.8 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━[0m [32m19.3/20.1 MB[0m [31m108.1 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m20.1/20.1 MB[0m [31m106.5 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m20.1/20.1 MB[0m [31m106.5 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m20.1/20.1 MB[0m [31m52.9 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading invisible_watermark-0.2.0-py3-none-any.whl (1.6 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.6 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.6/1.6 MB[0m [31m76.4 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading jiwer-3.0.2-py3-none-any.whl (21 kB)
+Downloading joblib-1.3.1-py3-none-any.whl (301 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/302.0 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m302.0/302.0 kB[0m [31m30.2 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading optuna-3.3.0-py3-none-any.whl (404 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/404.2 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m404.2/404.2 kB[0m [31m35.3 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading peft-0.7.1-py3-none-any.whl (168 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/168.3 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m168.3/168.3 kB[0m [31m19.6 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading Pillow-10.0.0-cp310-cp310-manylinux_2_28_x86_64.whl (3.4 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.4 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m3.4/3.4 MB[0m [31m188.8 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.4/3.4 MB[0m [31m94.0 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading protobuf-4.23.4-cp37-abi3-manylinux2014_x86_64.whl (304 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/304.5 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m304.5/304.5 kB[0m [31m30.3 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading py7zr-0.20.6-py3-none-any.whl (66 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/66.7 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m66.7/66.7 kB[0m [31m5.5 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading pydantic-2.4.2-py3-none-any.whl (395 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/395.8 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m395.8/395.8 kB[0m [31m29.2 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading pyngrok-7.0.3-py3-none-any.whl (21 kB)
+Downloading scikit_learn-1.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (10.8 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/10.8 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.8/10.8 MB[0m [31m23.8 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.5/10.8 MB[0m [31m66.1 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m8.9/10.8 MB[0m [31m85.8 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m10.8/10.8 MB[0m [31m108.1 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m10.8/10.8 MB[0m [31m108.1 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10.8/10.8 MB[0m [31m69.9 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading tiktoken-0.5.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.0 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.0/2.0 MB[0m [31m73.0 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading transformers-4.36.1-py3-none-any.whl (8.3 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/8.3 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m4.3/8.3 MB[0m [31m128.8 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m [32m8.1/8.3 MB[0m [31m117.8 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m8.3/8.3 MB[0m [31m115.5 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m8.3/8.3 MB[0m [31m76.5 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading trl-0.7.4-py3-none-any.whl (133 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/133.9 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m133.9/133.9 kB[0m [31m11.4 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading Werkzeug-2.3.6-py3-none-any.whl (242 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/242.5 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m242.5/242.5 kB[0m [31m24.5 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading xgboost-1.7.6-py3-none-manylinux2014_x86_64.whl (200.3 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/200.3 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.3/200.3 MB[0m [31m128.5 MB/s[0m eta [36m0:00:02[0m[2K   [91m━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m7.8/200.3 MB[0m [31m113.0 MB/s[0m eta [36m0:00:02[0m[2K   [91m━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.7/200.3 MB[0m [31m110.7 MB/s[0m eta [36m0:00:02[0m[2K   [91m━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12.3/200.3 MB[0m [31m82.3 MB/s[0m eta [36m0:00:03[0m[2K   [91m━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m15.8/200.3 MB[0m [31m80.8 MB/s[0m eta [36m0:00:03[0m[2K   [91m━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m18.5/200.3 MB[0m [31m75.1 MB/s[0m eta [36m0:00:03[0m[2K   [91m━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m21.1/200.3 MB[0m [31m76.2 MB/s[0m eta [36m0:00:03[0m[2K   [91m━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m23.0/200.3 MB[0m [31m76.1 MB/s[0m eta [36m0:00:03[0m[2K   [91m━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m25.6/200.3 MB[0m [31m69.0 MB/s[0m eta [36m0:00:03[0m[2K   [91m━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m29.4/200.3 MB[0m [31m75.4 MB/s[0m eta [36m0:00:03[0m[2K   [91m━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m33.3/200.3 MB[0m [31m99.0 MB/s[0m eta [36m0:00:02[0m[2K   [91m━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m37.1/200.3 MB[0m [31m107.0 MB/s[0m eta [36m0:00:02[0m[2K   [91m━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m41.1/200.3 MB[0m [31m108.5 MB/s[0m eta [36m0:00:02[0m[2K   [91m━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m44.9/200.3 MB[0m [31m107.6 MB/s[0m eta [36m0:00:02[0m[2K   [91m━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m48.8/200.3 MB[0m [31m107.9 MB/s[0m eta [36m0:00:02[0m[2K   [91m━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m52.7/200.3 MB[0m [31m107.5 MB/s[0m eta [36m0:00:02[0m[2K   [91m━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m56.6/200.3 MB[0m [31m108.4 MB/s[0m eta [36m0:00:02[0m[2K   [91m━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m60.5/200.3 MB[0m [31m108.4 MB/s[0m eta [36m0:00:02[0m[2K   [91m━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m64.4/200.3 MB[0m [31m108.5 MB/s[0m eta [36m0:00:02[0m[2K   [91m━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m68.4/200.3 MB[0m [31m108.7 MB/s[0m eta [36m0:00:02[0m[2K   [91m━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m72.3/200.3 MB[0m [31m109.2 MB/s[0m eta [36m0:00:02[0m[2K   [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m76.3/200.3 MB[0m [31m109.7 MB/s[0m eta [36m0:00:02[0m[2K   [91m━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m80.2/200.3 MB[0m [31m108.1 MB/s[0m eta [36m0:00:02[0m[2K   [91m━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m84.2/200.3 MB[0m [31m108.2 MB/s[0m eta [36m0:00:02[0m[2K   [91m━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m88.1/200.3 MB[0m [31m107.5 MB/s[0m eta [36m0:00:02[0m[2K   [91m━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━[0m [32m92.1/200.3 MB[0m [31m109.3 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m96.1/200.3 MB[0m [31m110.2 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m100.1/200.3 MB[0m [31m109.9 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m104.1/200.3 MB[0m [31m109.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━[0m [32m108.1/200.3 MB[0m [31m109.0 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━[0m [32m112.1/200.3 MB[0m [31m109.2 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━[0m [32m116.1/200.3 MB[0m [31m109.2 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━[0m [32m120.2/200.3 MB[0m [31m108.9 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━[0m [32m124.2/200.3 MB[0m [31m108.9 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━[0m [32m128.2/200.3 MB[0m [31m108.5 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━[0m [32m132.3/200.3 MB[0m [31m108.7 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━[0m [32m136.3/200.3 MB[0m [31m109.1 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━[0m [32m140.3/200.3 MB[0m [31m109.2 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m144.4/200.3 MB[0m [31m109.1 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━[0m [32m148.5/200.3 MB[0m [31m109.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━[0m [32m152.6/200.3 MB[0m [31m110.1 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━[0m [32m156.7/200.3 MB[0m [31m109.9 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m160.8/200.3 MB[0m [31m109.2 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m164.9/200.3 MB[0m [31m109.7 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━[0m [32m169.0/200.3 MB[0m [31m109.3 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━[0m [32m173.0/200.3 MB[0m [31m109.2 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━[0m [32m177.1/200.3 MB[0m [31m110.2 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━[0m [32m181.3/200.3 MB[0m [31m110.5 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━[0m [32m185.4/200.3 MB[0m [31m110.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m189.5/200.3 MB[0m [31m110.7 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m193.6/200.3 MB[0m [31m113.8 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m197.8/200.3 MB[0m [31m113.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m200.3/200.3 MB[0m [31m123.4 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m200.3/200.3 MB[0m [31m6.2 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading gradio_client-0.5.0-py3-none-any.whl (298 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/298.2 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m298.2/298.2 kB[0m [31m23.4 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading pydantic_core-2.10.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.0 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m2.0/2.0 MB[0m [31m147.8 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.0/2.0 MB[0m [31m56.2 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading hf_transfer-0.1.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.9 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.9 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m3.9/3.9 MB[0m [31m121.7 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.9/3.9 MB[0m [31m70.4 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading aiofiles-23.2.1-py3-none-any.whl (15 kB)
+Downloading Brotli-1.1.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (3.0 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.0 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m3.0/3.0 MB[0m [31m173.4 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.0/3.0 MB[0m [31m83.5 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading cmaes-0.10.0-py3-none-any.whl (29 kB)
+Downloading datasets-2.14.7-py3-none-any.whl (520 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/520.4 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m520.4/520.4 kB[0m [31m47.2 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading fsspec-2023.10.0-py3-none-any.whl (166 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/166.4 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m166.4/166.4 kB[0m [31m13.5 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading inflate64-1.0.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (93 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/93.1 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m93.1/93.1 kB[0m [31m11.4 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading pybcj-1.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (49 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/49.7 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m49.7/49.7 kB[0m [31m5.3 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading pycryptodomex-3.19.0-cp35-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.1 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.1/2.1 MB[0m [31m79.3 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading pyzstd-0.15.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (412 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/412.3 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m412.3/412.3 kB[0m [31m28.0 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading typing_extensions-4.9.0-py3-none-any.whl (32 kB)
+Downloading tyro-0.6.0-py3-none-any.whl (100 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/100.9 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m100.9/100.9 kB[0m [31m9.0 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading httpx-0.26.0-py3-none-any.whl (75 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/75.9 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m75.9/75.9 kB[0m [31m8.4 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading httpcore-1.0.2-py3-none-any.whl (76 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/76.9 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m76.9/76.9 kB[0m [31m9.3 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading pyarrow_hotfix-0.6-py3-none-any.whl (7.9 kB)
+Downloading shtab-1.6.5-py3-none-any.whl (13 kB)
+Building wheels for collected packages: ipadic, rouge-score, sacremoses, ffmpy
+  Building wheel for ipadic (setup.py): started
+  Building wheel for ipadic (setup.py): finished with status 'done'
+  Created wheel for ipadic: filename=ipadic-1.0.0-py3-none-any.whl size=13556703 sha256=c110e2d911d99174cb10b5c2e997c32c39c8022053d387b4c71ae0b3d1190eca
+  Stored in directory: /root/.cache/pip/wheels/5b/ea/e3/2f6e0860a327daba3b030853fce4483ed37468bbf1101c59c3
+  Building wheel for rouge-score (setup.py): started
+  Building wheel for rouge-score (setup.py): finished with status 'done'
+  Created wheel for rouge-score: filename=rouge_score-0.1.2-py3-none-any.whl size=24932 sha256=979081582211256b57e639d3856d0d725e20fce5ea8c421f85f7b783fa0956b9
+  Stored in directory: /root/.cache/pip/wheels/5f/dd/89/461065a73be61a532ff8599a28e9beef17985c9e9c31e541b4
+  Building wheel for sacremoses (setup.py): started
+  Building wheel for sacremoses (setup.py): finished with status 'done'
+  Created wheel for sacremoses: filename=sacremoses-0.0.53-py3-none-any.whl size=895241 sha256=ba142dedd5a82413f183a27a0436530f32a27a4b2cd58c75e7c4e847eebf8543
+  Stored in directory: /root/.cache/pip/wheels/00/24/97/a2ea5324f36bc626e1ea0267f33db6aa80d157ee977e9e42fb
+  Building wheel for ffmpy (setup.py): started
+  Building wheel for ffmpy (setup.py): finished with status 'done'
+  Created wheel for ffmpy: filename=ffmpy-0.3.1-py3-none-any.whl size=5579 sha256=c11275057a98ae92b6f5809581f6e93806b14bae5bb42125d270ddc247ef9eab
+  Stored in directory: /root/.cache/pip/wheels/01/a6/d1/1c0828c304a4283b2c1639a09ad86f83d7c487ef34c6b4a1bf
+Successfully built ipadic rouge-score sacremoses ffmpy
+Installing collected packages: ipadic, ffmpy, brotli, bitsandbytes, werkzeug, websockets, uvicorn, typing-extensions, tqdm, shtab, semantic-version, rapidfuzz, pyzstd, python-multipart, pyppmd, pyngrok, pycryptodomex, pybcj, pyarrow-hotfix, protobuf, Pillow, packaging, multivolumefile, loguru, joblib, inflate64, httpcore, hf-transfer, fsspec, einops, cmaes, aiofiles, xgboost, tiktoken, scikit-learn, sacremoses, pydantic-core, py7zr, nltk, jiwer, httpx, tyro, rouge-score, pydantic, invisible-watermark, gradio-client, diffusers, codecarbon, transformers, optuna, fastapi, datasets, trl, peft, gradio, evaluate, autotrain-advanced
+  Attempting uninstall: werkzeug
+    Found existing installation: Werkzeug 3.0.1
+    Uninstalling Werkzeug-3.0.1:
+      Successfully uninstalled Werkzeug-3.0.1
+  Attempting uninstall: websockets
+    Found existing installation: websockets 12.0
+    Uninstalling websockets-12.0:
+      Successfully uninstalled websockets-12.0
+  Attempting uninstall: uvicorn
+    Found existing installation: uvicorn 0.23.2
+    Uninstalling uvicorn-0.23.2:
+      Successfully uninstalled uvicorn-0.23.2
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing_extensions 4.5.0
+    Uninstalling typing_extensions-4.5.0:
+      Successfully uninstalled typing_extensions-4.5.0
+  Attempting uninstall: tqdm
+    Found existing installation: tqdm 4.66.1
+    Uninstalling tqdm-4.66.1:
+      Successfully uninstalled tqdm-4.66.1
+  Attempting uninstall: rapidfuzz
+    Found existing installation: rapidfuzz 3.5.2
+    Uninstalling rapidfuzz-3.5.2:
+      Successfully uninstalled rapidfuzz-3.5.2
+  Attempting uninstall: protobuf
+    Found existing installation: protobuf 3.20.3
+    Uninstalling protobuf-3.20.3:
+      Successfully uninstalled protobuf-3.20.3
+  Attempting uninstall: Pillow
+    Found existing installation: Pillow 10.1.0
+    Uninstalling Pillow-10.1.0:
+      Successfully uninstalled Pillow-10.1.0
+  Attempting uninstall: packaging
+    Found existing installation: packaging 21.3
+    Uninstalling packaging-21.3:
+      Successfully uninstalled packaging-21.3
+  Attempting uninstall: joblib
+    Found existing installation: joblib 1.3.2
+    Uninstalling joblib-1.3.2:
+      Successfully uninstalled joblib-1.3.2
+  Attempting uninstall: fsspec
+    Found existing installation: fsspec 2023.12.2
+    Uninstalling fsspec-2023.12.2:
+      Successfully uninstalled fsspec-2023.12.2
+  Attempting uninstall: xgboost
+    Found existing installation: xgboost 2.0.2
+    Uninstalling xgboost-2.0.2:
+      Successfully uninstalled xgboost-2.0.2
+  Attempting uninstall: scikit-learn
+    Found existing installation: scikit-learn 1.2.2
+    Uninstalling scikit-learn-1.2.2:
+      Successfully uninstalled scikit-learn-1.2.2
+  Attempting uninstall: pydantic-core
+    Found existing installation: pydantic_core 2.14.5
+    Uninstalling pydantic_core-2.14.5:
+      Successfully uninstalled pydantic_core-2.14.5
+  Attempting uninstall: nltk
+    Found existing installation: nltk 3.2.4
+    Uninstalling nltk-3.2.4:
+      Successfully uninstalled nltk-3.2.4
+  Attempting uninstall: pydantic
+    Found existing installation: pydantic 1.10.12
+    Uninstalling pydantic-1.10.12:
+      Successfully uninstalled pydantic-1.10.12
+  Attempting uninstall: transformers
+    Found existing installation: transformers 4.36.0
+    Uninstalling transformers-4.36.0:
+      Successfully uninstalled transformers-4.36.0
+  Attempting uninstall: optuna
+    Found existing installation: optuna 3.5.0
+    Uninstalling optuna-3.5.0:
+      Successfully uninstalled optuna-3.5.0
+  Attempting uninstall: fastapi
+    Found existing installation: fastapi 0.101.1
+    Uninstalling fastapi-0.101.1:
+      Successfully uninstalled fastapi-0.101.1
+  Attempting uninstall: datasets
+    Found existing installation: datasets 2.1.0
+    Uninstalling datasets-2.1.0:
+      Successfully uninstalled datasets-2.1.0
+Successfully installed Pillow-10.0.0 aiofiles-23.2.1 autotrain-advanced-0.6.75 bitsandbytes-0.41.0 brotli-1.1.0 cmaes-0.10.0 codecarbon-2.2.3 datasets-2.14.7 diffusers-0.21.4 einops-0.6.1 evaluate-0.3.0 fastapi-0.104.1 ffmpy-0.3.1 fsspec-2023.10.0 gradio-3.41.0 gradio-client-0.5.0 hf-transfer-0.1.4 httpcore-1.0.2 httpx-0.26.0 inflate64-1.0.0 invisible-watermark-0.2.0 ipadic-1.0.0 jiwer-3.0.2 joblib-1.3.1 loguru-0.7.0 multivolumefile-0.2.3 nltk-3.8.1 optuna-3.3.0 packaging-23.1 peft-0.7.1 protobuf-4.21.12 py7zr-0.20.6 pyarrow-hotfix-0.6 pybcj-1.0.2 pycryptodomex-3.19.0 pydantic-2.4.2 pydantic-core-2.10.1 pyngrok-7.0.3 pyppmd-1.0.0 python-multipart-0.0.6 pyzstd-0.15.9 rapidfuzz-2.13.7 rouge-score-0.1.2 sacremoses-0.0.53 scikit-learn-1.3.0 semantic-version-2.10.0 shtab-1.6.5 tiktoken-0.5.1 tqdm-4.65.0 transformers-4.36.1 trl-0.7.4 typing-extensions-4.7.1 tyro-0.6.0 uvicorn-0.22.0 websockets-11.0.3 werkzeug-2.3.6 xgboost-1.7.6
