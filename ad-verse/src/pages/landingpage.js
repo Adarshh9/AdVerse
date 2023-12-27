@@ -19,13 +19,13 @@ const YourComponent = () => {
     });
   };
 
-  const handleImageChange = (e) => {
-    const file = e.target.files[0];
+
+  const file = e.target.files[0];
     setFormData({
       ...formData,
       productImage: file
     });
-  };
+  ;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -64,5 +64,6 @@ const YourComponent = () => {
     </form>
   );
 };
+
 
 export default YourComponent;
