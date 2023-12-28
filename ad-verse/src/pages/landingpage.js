@@ -19,13 +19,13 @@ const YourComponent = () => {
     });
   };
 
-
-  const file = e.target.files[0];
+  const handleImageChange = (e) => {
+    const file = e.target.files[0];
     setFormData({
       ...formData,
       productImage: file
     });
-  ;
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -39,6 +39,7 @@ const YourComponent = () => {
     formDataToSend.append('adType', formData.adType);
 
     try {
+      // Sending image and form data to the backend
       const response = await axios.post('http://127.0.0.1:5000/api/endpoint', formDataToSend, {
         headers: {
           'Content-Type': 'multipart/form-data'
@@ -54,7 +55,7 @@ const YourComponent = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input type="text" name="companyName" value={formData.companyName} onChange={handleInputChange} placeholder="Company Name" /> <br />
+      <input type="text" name="companyName" value={formData.companyName} onChange={handleInputChange} placeholder="Company Name" /><br />
       <textarea name="productDescription" value={formData.productDescription} onChange={handleInputChange} placeholder="Product Description" /><br />
       <input type="file" accept="image/*" onChange={handleImageChange} /><br />
       <input type="text" name="taglineText" value={formData.taglineText} onChange={handleInputChange} placeholder="Tagline Text" /><br />
@@ -64,6 +65,5 @@ const YourComponent = () => {
     </form>
   );
 };
-
 
 export default YourComponent;
