@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
+
 
 const YourComponent = () => {
   const [formData, setFormData] = useState({
@@ -55,9 +57,9 @@ const YourComponent = () => {
   };
 
   return (
-    <div style={{ textAlign: 'centre', margin: '10px'  }}>
+    <div style={{ textAlign: 'centre', margin: '4px'  }}>
       <div style={{ textAlign:'center', color:'blue', fontWeight:'bold', fontStyle:'italic', fontSize:'30px' }}><h1>ADVerse</h1></div><br />
-      <form onSubmit={handleSubmit} style={{  maxWidth: '500px', margin: 'auto', padding: '10px', border: '1px solid #ccc', borderRadius: '8px',backgroundColor:'#00FFFF',textAlign: 'Left' }}>
+      <form onSubmit={handleSubmit} style={{  maxWidth: '500px', margin: '4px', padding: '5px', border: '1px solid #ccc', borderRadius: '8px',backgroundColor:'#00FFFF',textAlign: 'centre' }}>
         <li>
          <b>Company Name :&nbsp;&nbsp; </b> 
           <input type="text" name="companyName" value={formData.companyName} onChange={handleInputChange} style={{border: '2px solid #ccc' , borderRadius: '8px'}}   />
@@ -84,9 +86,11 @@ const YourComponent = () => {
         </li><br />
       </form>
       <div style={{textAlign:'center', margin:'5px'}}>
-      <button type="submit" style={{ padding: '10px', backgroundColor: '#4CAF50', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer',   }}>
-          Submit
-        </button>
+        <Link to={"/product"}>
+          <button type="submit" style={{ padding: '10px', backgroundColor: '#4CAF50', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer',   }}>
+            Submit
+          </button>
+        </Link>
       </div>
     </div>
   );
