@@ -8,7 +8,8 @@ const YourComponent = () => {
     productImage: null, // File type for image
     taglineText: '',
     theme: '',
-    adType: ''
+    adType: '',
+
   });
 
   const handleInputChange = (e) => {
@@ -37,6 +38,7 @@ const YourComponent = () => {
     formDataToSend.append('taglineText', formData.taglineText);
     formDataToSend.append('theme', formData.theme);
     formDataToSend.append('adType', formData.adType);
+    
 
     try {
       // Sending image and form data to the backend
