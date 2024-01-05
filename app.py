@@ -9,8 +9,10 @@ stored_data = {
     'productImage': None,
     'taglineText': '',
     'theme': '',
-    'adType': ''
+    'adType': '',
 }
+
+
 
 @app.route('/')
 def welcome():
@@ -31,7 +33,22 @@ def receive_data():
         stored_data['theme'] = request.form.get('theme', '')
         stored_data['adType'] = request.form.get('adType', '')
 
+        v_companyName =  stored_data['companyName']
+        v_productDescription = stored_data['productDescription']
+        v_taglineText = stored_data['taglineText']
+        v_theme = stored_data['theme']
+        v_adType = stored_data['adType']
+
+
+        print ("Company : " , v_companyName)
+        print ("Product-Des : " , v_productDescription)
+        print ("Tagline : " , v_taglineText)
+        print ("Theme : " , v_theme)
+        print ("AD-type : " , v_adType)
+       
         return jsonify({'message': 'Data received and stored successfully'}), 200
+     
+        
     else:
         return jsonify({'error': 'Invalid request method'}), 405
 
