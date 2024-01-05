@@ -7,6 +7,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+// import Test from "./pages/test"
 
 function App() {
  
@@ -16,6 +17,7 @@ function App() {
     <div className="max-w-md w-full space-y-8">
      <BrowserRouter>
         <Routes>
+           {/* <Route path="/test" element={<Test/>}/> */}
             <Route path="/" element={<Landingpage/>} />
             <Route path="/product" element={<Productpage/>} />
         </Routes>
